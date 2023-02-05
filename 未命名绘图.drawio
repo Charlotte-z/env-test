@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T15:11:34.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.16" etag="DjUsOxVTdF8sKFV1KKRs" type="github"><diagram name="第 1 页" id="bGJVNJ3aLIj-1-NPbPtr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-05T15:21:51.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t_lGl2r8morafV5NlENE" version="20.8.16" type="github">
+  <diagram name="第 1 页" id="bGJVNJ3aLIj-1-NPbPtr">
+    <mxGraphModel dx="1728" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-2" target="J3Ba4ayLWJwSDpaIdTPD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-2" value="yarn build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-4" value="CI stage" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-5" target="J3Ba4ayLWJwSDpaIdTPD-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.9999999999998" y="87.49702702702686" as="sourcePoint" />
+            <mxPoint x="400" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-5" target="J3Ba4ayLWJwSDpaIdTPD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-29" value="handle index.html" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J3Ba4ayLWJwSDpaIdTPD-11">
+          <mxGeometry x="-0.7643" y="1" relative="1" as="geometry">
+            <mxPoint x="45" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-5" value="add-env.sh" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="87.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-7" target="J3Ba4ayLWJwSDpaIdTPD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-30" value="upload to oss" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J3Ba4ayLWJwSDpaIdTPD-18">
+          <mxGeometry x="-0.168" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-7" value="&amp;lt;html&amp;gt;&lt;br&gt;&amp;lt;script src=&quot;oss://staging/env.js&quot; /&amp;gt;&lt;br&gt;...&lt;br&gt;&amp;lt;/html&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-20" value="upload to oss" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-10" target="J3Ba4ayLWJwSDpaIdTPD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-10" value="&amp;lt;html&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;script src=&quot;oss://prod/env.js&quot; /&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;/html&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-17" value="ossutil upload oss://ci_bucket/staging/frontend_main/master/" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="901" y="10" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-19" value="ossutil upload oss://ci_bucket/production/frontend_main/master/" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="901" y="150" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-21" value="staging CD stage" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="330" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-24" value="ossutil sync oss://ci_bucket/staging/frontend_main/master/&amp;nbsp; to&amp;nbsp; &amp;nbsp;oss://staging_bucket/frontend_main/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="870" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J3Ba4ayLWJwSDpaIdTPD-26" target="J3Ba4ayLWJwSDpaIdTPD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-26" value="prod CD stage" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="510" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J3Ba4ayLWJwSDpaIdTPD-27" value="ossutil sync oss://ci_bucket/prod/frontend_main/master/&amp;nbsp; to&amp;nbsp; &amp;nbsp;oss://prod_bucket/frontend_main/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="535" width="870" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
